@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group android:translateX="13" android:translateY="10" android:scaleX="0.65" android:scaleY="0.65">
+        <!-- Shield with Gradient -->
+        <path
+            android:pathData="M65,12 L106,27 L106,80 C106,101 89,114 65,121 C41,114 24,101 24,80 L24,27 Z"
+            android:strokeWidth="6"
+            android:strokeColor="#00000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round">
+            <gradient
+                android:startX="24"
+                android:startY="12"
+                android:endX="106"
+                android:endY="121"
+                android:type="linear">
+                <item android:offset="0" android:color="#C9545F"/>
+                <item android:offset="1" android:color="#4F80C8"/>
+            </gradient>
+        </path>
+
+        <!-- Route Line -->
+        <path
+            android:pathData="M34,22 C76,10 104,30 92,50 C104,72 80,100 60,108 C40,100 26,72 38,50 C44,40 55,46 65,50"
+            android:strokeWidth="4"
+            android:strokeColor="#EF9F27"
+            android:strokeLineCap="round" />
+
+        <!-- Pin -->
+        <group android:translateX="65" android:translateY="50">
+            <path
+                android:pathData="M0,0 C8,0 14,6 14,13 C14,23 4,31 0,34 C-4,31 -14,23 -14,13 C-14,6 -8,0 0,0 Z"
+                android:fillColor="#D85A30" />
+            <path
+                android:pathData="M0,13m-6.5,0a6.5,6.5 0,1 1,13 0a6.5,6.5 0,1 1,-13 0"
+                android:fillColor="#FFFFFF" />
+            <path
+                android:pathData="M-3,13 L-0.5,16 L4,9"
+                android:strokeWidth="2"
+                android:strokeColor="#D85A30"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+        </group>
+    </group>
+
+    <!-- Text: Sentriq -->
+    <!-- (Optional, may be too small for some icons, but added for branding) -->
+    <!-- Note: Vector drawable text support is limited, so we skip or use simple paths -->
+</vector>
